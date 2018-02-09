@@ -1014,13 +1014,22 @@ a.firma-ref {
 	min-width: 40rem;
 }
 
-}	
-
-section#Touch-index{
-	height: 100% ;
+section#Touch-index,
+section#fileview-index{
+	height: 100vh;
 }
 
-#index section {
+
+}	
+
+section#Touch-index,
+section#fileview-index{
+	height: 80vh;
+}
+
+#v7-index,
+#MM-index,
+#intro {
 	height: 100vh;
 }
 
