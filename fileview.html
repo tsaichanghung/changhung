@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>FileView - Chang-Hung Tsai</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/progressive-image.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow:700|Permanent+Marker|Pragati+Narrow|Scope+One|Sriracha|Vollkorn|Rubik|Rubik:300" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:700i" rel="stylesheet">    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Chang-Hung Tsai</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Project <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="MM.html">MailCloud Messenger</a></li>
+            <li><a href="mail2000-v7.html">Mail2000 V7</a></li>
+            <li><a href="fileview.html">FileView</a></li>
+            <li><a href="touch.html">Touch</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">ABOUT</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <p></p>
+    <div class="wrapper">
+    <section id="subject">
+      <div class="content">
+      <h1>FileView</h1>
+      <h3>“ Another way to <span class="hightlight">access your attachments</span> more efficiently in Mail2000. ”</h3>
+      <p>Sometimes, it’s rather annoyed by how to find your messages or attachment in your Email because your mail would get more and more complex as time goes on.  Since Mail2000 users always check mails and files in an 8-hour workday, we provided a simpler way for them to access attachments in Mail2000. We expect not only to improve the proficiency of finding attachment, but to increase the productivity of work. </p>
+      </div>
+      <div>
+        <a class="progressive replace" href="image/fileview-detail-fig-1.png">
+          <img class="preview" src="image/fileview-detail-fig-1-s.png">
+        </a>
+      </div>
+    </section>
+    <section id="role">
+      <div class="content">
+      <h4 class="uppercase">my role</h4>  
+        <p>In FileView project I was responsible for research, ideation, UI design, and usability testing, partnered with one PM and one engineer.</p>
+        <p><span class="bold">Lead everyone to realize our user. </span>I conducted several interview for collecting data of users' behaviours and their context and presented to every partner to make sure all of us had an identical domain knowledge toward the target user before we started to make any solution.</p>
+        <p><span class="bold">Verify and Refinement. </span>Since the member of this project was rahter simple, I recommended a method of usability (called RITE), we conducted a series of intensive usability testing to determine how target users interact with FileView when the development phase began. I used several shorter circles and recruited participants to help us find and verify problems. In addition, I also help some front-end job, such as modified the style (CSS) of FileView UI during the development phase.</p>
+      </div>
+    </section>
+    <section id="discovery">
+      <div class="content">
+        <h4 class="uppercase">dicovery</h4>
+        <p>To strengthen ours domain knowledge of Mail2000, we conducted a series of In-depth interviews among 10 Mail2000 users (9 Taiwanese in A company and 1 Japanese in B company) to find out about their context. </p>
+        <p>"We focues on obeserving users' behaviour at first becouse that would help us get more cues based on facts quickly, then extended to their scenarios inclusive of many objects or interactions, finally, their attitudes toward whole Mail2000."</p>
+        <div class="m-img">
+          <a class="progressive replace" href="image/interview.png">
+          <img class="preview" src="image/interview-s.png">
+          </a>
+          <span class="italic font">Fig. 1 Record of Interview</span>
+        </div>
+        <p>Except for composing and reading mail, while using Mail2000 (webmail) in PC, these users always “manage their mail folder” (to put the right mail into the right folder) and “find”. We hightlighted some common attributes of what we learned from them:
+        </p>
+        <p><span class="bold">Behaviour</span></p>
+        <ul class="list-c disc">
+          <li>Always communicating with external contact every workday.</li>
+          <li>Categorise their mail into To-do or DONE in many ways, and precisely classify their mail. (by project, person, team, and so on)</li>
+          <li>They download attachment either when going to edit current file immediately, or concerning that preview might show a distort document.</li>
+          <li>Heaps of mails. Because they never delete their mails. (except for spam)</li>
+        </ul>
+        <p><span class="bold">Attitude</span></p>
+        <ul class="list-c disc">
+          <li>Mail2000 is the only place where always keeping theirs the purest and newest attachment, especially when they found nothing in local folders.</li>
+          <li>Categorise their mail into To-do or DONE in many ways, and precisely classify their mail. (by project, person, team, and so on)</li>
+          <li>Occasionally, it’s quite hard to find mails out for them, especially attachment, and not just concerns of performance.</li>
+        </ul>
+        <p>In order to realize the context of searching thoroughly, I conducted a brief one-on-one usability testing with think aloud method among 7 participants.</p>
+        <div class="m-img">
+          <a class="progressive replace" href="image/context-01.png">
+          <img class="preview" src="image/context-01-s.png">
+          </a>
+          <span class="italic font">Fig. 2 Context of Find attachment</span>
+        </div>
+
+        <p class="bold">Task: Access a particular attachment. (a sales report PDF)</p>
+        <p>We found there are two patterns of behaviour:</p>
+        <p><span class="bold">Recall and type keyword. </span>Two partipants even couldn’t sure if they received this mail before, so they tried some keywords first. (green line)</p>
+        <p><span class="bold">Exploring. </span>Five of them knew that mail, the goal became simpler for them: Shift into the right folder (their context looks , just changing viewing mode. (blue line)</p>
+        <p>The fact is, it’s quite hard for participants to type even one keyword to search for lacking of retrieval cues, on the other hand, it tends to make participants losing their way when catching the wrong memory at the beginning.</p>     
+      </div>
+    </section>
+    <section id="insight">
+    <div class="content">
+        <h4 class="uppercase">insight</h4>
+        <p>What is the mental model like when they are going to find something in Mail2000? Obviously, <span class="bold">Sender, Subject, and Content (file or mail)</span> are the top 3 cues that users try to recall before actions because of lacking variety of memory.</p>
+        <div class="m-img">
+          <a class="progressive replace" href="image/context-02.png">
+          <img class="preview" src="image/context-02-s.png">
+          </a>
+          <span class="italic font">Fig. 3 Touchpoint in user's context</span>
+        </br>
+          <span class="font">Note: <span class="italic">Clear and Vague</span> means the memory of the whole thing. </span>
+        </div>
+        <div>
+          <ul class="wrap">
+            <li>
+              <div class="item-wrap">
+                <div class="title">                  
+                  <img class="img-responsive" src="image/navigation.png" >
+                </div>
+                <div class="s-title">
+                  <div class="s-title-1">More FEATURE & NAVIGATION</div>
+                  <div class="s-title-2">Users will get annoyed or even quit when the SERP turns out imprecise or they guessed wrong. The reason why they were upset was relateive to both of information and interface.</div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-wrap">
+                <div class="title">
+                  <img class="img-responsive" src="image/recognition.png" >
+                </div>
+                <div class="s-title">
+                  <div class="s-title-1">SIMPLE</div>
+                  <div class="s-title-2">Minimize the need of recall. Readily assessable cues and desicion aids would be helpful. In addition, they need more cues to clarify their intent.
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-wrap">
+                <div class="title">
+                  <img class="img-responsive" src="image/timer.png" >
+                </div>
+                <div class="s-title">
+                  <div class="s-title-1">EFFICIENCY</div>
+                  <div class="s-title-2">It’s always in a hurry when user needs to find the attachment, (in the whole context, the main purpose wasn’t "search".) They want to end the process of search as quickly as pissible.</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </section>
+    <section id="design">
+      <div class="content">
+        <h4 class="uppercase">Design</h4>
+      </div>
+      <h3>“ What about a view that display only attachments? ”</h3>
+      <div class="content">
+        <p>We developed some concepts, such as,</p>
+        <ul class="list-c disc bold">
+        <li>Display all attachements of the current folder.</li>
+        <li>Provide useful information (Subject, Sender, Receiver, Date) to support recognition.</li>
+        <li>Quickly switch between "MailView" and "FileView".</li> 
+        <li>Minimise learning, following the present UI pattern of Mail2000.</li> 
+        </ul>
+        <div class="m-img">
+        <a class="progressive replace" href="image/context-02.png">
+        <img class="preview" src="image/concept-02-s.png">
+        </a>
+        <span class="italic font">Fig. 4 MailView ⇔　FileView (Concept of FileView)
+        </span>
+        </div>
+        <div class="m-img">
+        <a class="progressive replace" href="image/prototype.png">
+        <img class="preview" src="image/prototype-s.png">
+        </a>
+        <span class="italic font">Fig. 5 MailView ⇔　FileView (Prototype Version I of FileView)</span>
+        </div>
+        <p><span class="bold">Iteration of Usability Testing. </span>In order to validate whether this concept would meet user needs as rapidly as possible, we decided to implement user test (and of course we had some issue identified prior to the test.)</p>
+        <p><span class="bold">"RITE method"</span> We implemented a series of usability testing differing from those of ordinary usability testing. We focused on iterating the circle of finding the problems rapidly and fixing them. We recruited 7 participants who were 8 aged 28 to 36 years old. Some of them were received usability testing before during pilot study mentioned above (inclusive of 1 Japanese).</p>
+
+        <span class="sub-t sub-t-d">RITE method: Medlock, M.C., Wixon, D., Terrano, M., Romero, R., and Fulton, B. (2002)</span>
+        <p>In the first 3 runs (iterations), many flaws came to light. We found 13 issues during the usability testing, and hightlighted some of thems as follows:
+        </p>        
+        <div class="m-img">
+        <a class="progressive replace" href="image/usability record.png">
+        <img class="preview" src="image/usability-record-s.png">
+        </a>
+        <span class="italic font">Fig. 6 Usability Record</span>
+        </div>
+        <div class="m-img">
+        <a class="progressive replace" href="image/file-view-for-report.png">
+        <img class="preview" src="image/file-view-for-report-s.png">
+        </a>
+        <span class="italic font">Fig. 7 unfriendly gazing path </span>
+        </div>
+        <p><span class="bold">Where is the entry? </span>The result showed there was lack of indication, so that the participant even did not notice the Entry of any flow which would leads her to use FileView.</p>
+        <p><span class="bold">I need more information. </span>On the other hand, in Run 2 the participant seems quite tired were overwhelmed when looking at when browsing FileView because horizontal gazing path would be too long depends on the display (look at filename on the left side then look at the mail subject on the right side), besides, those main elements such as subject, sender, date, content would somewhat important for user when making decision.</p>
+        <p><span class="bold">Can I narrow down by keyword? </span>Actually, keyword is also an option that user can classify and narrow down what they are looking at. (Note: Even though it could be a wrong hint.)</p>        
+        <div class="m-img">
+        <a class="progressive replace" href="image/rite.png">
+        <img class="preview" src="image/rite-s.png">
+        </a>
+        <span class="italic font">Fig. 8 Process of usability testing</span>
+        </div>
+        <p>After four iterations, we clarified our concept and fixed some usability issues: 
+        </p>
+        <ul class="list-c disc">
+        <li> Esay to access an attachment.
+        </li>
+        <li>Through browsing FileView, user could find a particular attachment quickly  by recognizing.
+        </li>
+        <li>Adding icons to represent each type of attachment and providing useful filters would make much easier when recognizing.</li> 
+        </ul>
+        </ul>
+        </div>
+      </section>
+    <section id="refinement">
+      <div class="content">        
+      <h4 class="uppercase">Refinement</h4>
+      <div class="m-img">
+        <a class="progressive replace" href="image/fileview flow.png">
+        <img class="preview" src="image/fileview-flow-s.png">
+        </a>
+        <span class="italic font">Fig. 9 Flow of FileView (Concept of FileView)
+        </span>
+        </div>
+        <p>From Figure 9, it can be seen that users can easily reach to the entry of FileView whichever flow they from.</p>
+        <div class="m-img">
+        <a class="progressive replace" href="image/modify.png">
+        <img class="preview" src="image/modify-s.png">
+        </a>
+        <span class="italic font">Fig. 10 General entrys of FileView   
+        </span>
+        </div>
+        <div class="m-img">
+        <a class="progressive replace" href="image/modify-02.png">
+        <img class="preview" src="image/modify-02-s.png">
+        </a>
+        <span class="italic font">Fig. 11 The entry of FileView when users query and look at the SERP.
+        </span>
+        </div>
+         <div class="m-img">
+        <a class="progressive replace" href="image/before.gif">
+        <img class="preview" src="image/before-s.png">
+        </a>
+        <span class="italic font">Fig. 12 Prototype of early phase  (Concept of FileView)
+        </span>
+        </div>
+      </section>
+        <section id="release">
+        <div class="content"> 
+        <h4 class="uppercase">Internal Release</h4>
+        <p>Even thought we've already believed that somewhat they probably would need more filters which can narrow down the content, such as <span class="bold">"File Type", "Keyword search"</span>. We still decided to release current version as an internal version let more colleagues use it after we fixed almost critical issues.</p>
+        <blockquote class="quotation">
+          <p>" I was uninterested even doubted whether user would need FileView until I was asked to check which one is the lastest attachment I sent to our client. Definitely, just one click then I can filter out all messages (a huge mail thread) and check files by browsing."</p>
+          <p>" May I share my success story? "</p>
+          <p>─ PM member</p>
+        </blockquote>
+        <blockquote class="quotation">
+          <p>" I feel I can control Mail2000 more effeciently than ever before. And I would like to manage my attachments in mail folder as those files in my Local folder. In addtion, if there were a keyword search would be better, I think. "
+          <p>─ Sales member</p>
+        </blockquote>
+        <p>It was indicated that there were 25 colleagues access FileView from access log during 15 days, some of them access more than 3 times on different days. I conducted a group interview to gain their opinions, feeling, and experience.</p>
+        <div class="m-img">
+        <a class="progressive replace" href="image/fileview log raw.png">
+        <img class="preview" src="image/fileview-log-raw-s.png">
+        </a>
+        <span class="italic font">Fig. 13 Access log of one of the informant during internal release
+        </span>
+        </div>
+        <p>Subsequently, we build several filter features that can filter out all but the files you're interested in seeing.</p>
+        <div class="m-img">
+        <a class="progressive replace" href="image/final.png">
+        <img class="preview" src="image/final-s.png">
+        </a>
+        <span class="italic font">Fig. 14 Final of FileView  (Concept of FileView)
+        </span>
+        </div>
+        </div>
+        </section>
+    <section id="reflect">
+      <div class="content">
+      <h4 class="uppercase">What I learned</h4>
+      </div>
+        <h3>"Problems would be solved properly as long as you ascertain the problem itself clearly at the beginning. "</h3>
+      <div class="content">  
+        <p>Actually we had a lot of challenges during the FileView project, and in research phase I used to be asked such as,</p>
+         <blockquote class="quotation">
+          <p>" Why don't you improve you search module?　For instance, AND search. "</p>          
+          <p></p>
+        </blockquote> 
+        <p>In order to answer this question, I must to realize how users finds their attachments. I implemented lots of usability testing with different complexity of the target. We found there were several cues when retrieving, and the name of attachment is the most difficult cue to recall because of variable.</p> 
+        <p>There are two path of context I've mentioned above, if user remember any cue they type keyword then they started to search, but inevitably get annoyed due to they must to visit each mail with attachment; in the other hands, if the memory is vague, they could even go to a wrong SERP, let alone find an attachment.</p>
+        <p>In these scenarios, user needs indeed are: <span class="bold">1. easy to aceess their files, 2. Narrow down content by correct index</span> generated from database and activate their memory.</p>
+      </div>
+      </section>
+      <section id="footer">
+      <div class="container">
+      <div class="row">
+        <a href="MM.html"><div class="col-md-4 footer-nav">
+          <div class="foo-des">
+          <span class="icon-MM foo-img"></span>
+          <span class="foo-txt">
+          <div>
+            <h5 class="mt-0">MailCloud Messenger</h5>
+            <span>A work HUB, and A team messaging platform. (called MM)</span>
+          </div>
+          </span>
+          </div>
+        </div></a>
+        <a href="mail2000-v7.html"><div class="col-md-4 footer-nav">
+          <div class="foo-des">
+          <span class="icon-V7 foo-img"></span>
+          <span class="foo-txt">
+          <div>
+            <h5 class="mt-0">Mail2000 V7</h5>
+             <span>I redesigned a clean, uncluttered UI for our users and support their work.</span>
+          </div>
+          </span>
+          </div>
+        </div></a>
+        <a href="touch.html"><div class="col-md-4 footer-nav">
+          <div class="foo-des">
+          <span class="icon-Touch foo-img"></span>
+          <span class="foo-txt">
+          <div>
+            <h5 class="mt-0">Touch</h5>
+             <span>Pouring water is simple for everyone.</span> 
+          </div>
+          </span>
+          </div>  
+        </div></a>
+      </div>
+      </div>
+      <footer id="footer-index">
+        <ul>
+          <li><a class="icon-fb" target="new" href="https://en-gb.facebook.com/people/%E7%8E%8B%E4%BF%8A%E5%87%B1/1673647313"></a></li>
+          <li><a class="icon-ig" target="new" href="https://www.instagram.com/changhungtsai/"></a></li>
+          <li><a class="icon-linkedin" target="new" href="https://www.linkedin.com/in/changhungtsai/"></a></li>
+        </ul>
+      </footer>
+    </section>
+    </div>
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="jquery.bootstrap-autohidingnavbar.js"></script>
+    <script>
+			$(".navbar-fixed-top").autoHidingNavbar({
+			  // see next for specifications
+			});
+    </script>
+    <script src="progressive-image.min.js"></script>
+  </body>
+</html>

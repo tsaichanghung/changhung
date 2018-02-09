@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'SS-icon';
+  src:  url('../fonts/SS-icon.eot?n3gsie');
+  src:  url('../fonts/SS-icon.eot?n3gsie#iefix') format('embedded-opentype'),
+    url('../fonts/SS-icon.ttf?n3gsie') format('truetype'),
+    url('../fonts/SS-icon.woff?n3gsie') format('woff'),
+    url('../fonts/SS-icon.svg?n3gsie#SS-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'SS-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fb:before {
+  content: "\e904";
+}
+.icon-ig:before {
+  content: "\e905";
+}
+.icon-linkedin:before {
+  content: "\e906";
+}
+.icon-Touch:before {
+  content: "\e900";
+}
+.icon-FileView:before {
+  content: "\e901";
+}
+.icon-MM:before {
+  content: "\e902";
+}
+.icon-V7:before {
+  content: "\e903";
+}
+
+.icon-Touch:before,
+.icon-FileView:before,
+.icon-MM:before,
+.icon-V7:before {
+  font-size: 3rem;
+  opacity: 0.7;
+}
+
+.icon-fb:before,
+.icon-ig:before,
+.icon-linkedin:before {
+  font-size: 1.9rem;
+  opacity: 0.5;
+}
