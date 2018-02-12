@@ -923,6 +923,10 @@ ul.list-c {
 
 /*ABOUT*/
 
+#about > img {
+	width: 100vw;
+}
+
 #about-content {
 	color: #333333;
 }
@@ -992,7 +996,7 @@ a.firma-ref {
 /*INDEX*/
 
 #intro {
-	background: #eee;
+	background: #eaecef;
 	padding: 3rem 0;
 }
 
@@ -1049,19 +1053,21 @@ section#fileview-index{
 .avatar {
 	width: 15rem;
 	height: 15rem;
-	margin: 0 auto;
+	margin: 7rem auto 0;
 	border-radius: 15rem; 
-	background-image: url('../image/avatar-1.jpg'); 
-	background-size: contain;
+	background-image: url('../image/avatar-2.png'); 
+	background-size: 127%;
+	box-shadow: 0 0 0 1rem rgba(17,90,103,.1);
 }
+
 
 @media (min-width: 480px) {
 	.avatar {
 	width: 20rem;
 	height: 20rem;
-	background-image: url('../image/avatar-1.jpg'); 
-	background-size: contain;
-	margin: 0 auto;
+	background-image: url('../image/avatar-2.png'); 
+	background-size: 127%;
+	margin: 7rem auto 0;
 	border-radius: 20rem; 
 }
 }
